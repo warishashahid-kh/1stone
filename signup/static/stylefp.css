@@ -1,0 +1,73 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+.card {
+border-radius: 12px;
+}
+
+.btn-primary {
+    background-color:#01796F;
+border-color:#01796F;
+width: 100%;
+  display:block;
+}
+
+.btn-primary:hover {
+    background-color: #005e61;
+    border-color: #005e61;
+}
+
+.left-bg-img {
+    background-image: url('https://d236ysur4cik0i.cloudfront.net/prod/public/img/login/default.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    border-radius: 12px;
+}
+
+.left-bg-img-fixed {
+    background-image: url('https://d236ysur4cik0i.cloudfront.net/prod/public/img/login/default.png'); /* Use your desired background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    border-radius: 12px;
+    height: 100%;
+}
+
+.forgot-password {
+    font-size: 0.875rem;
+    text-decoration: none;
+    color: #007bff;
+display: block;
+text-align: right;
+margin-bottom: 0.5rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.form-control {
+    border-color:lightgray;
+    background-color:aliceblue;
+}
+
+.form-control:focus {
+    border-color:darkgray;
+    box-shadow:lightgray;
+}
+
+@media (max-width: 991.98px) {
+    .left-bg-img { 
+        min-height: 250px;
+    }
+    .left-bg-img-fixed { 
+        min-height: 250px; 
+    }
+}
